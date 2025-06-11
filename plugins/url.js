@@ -83,7 +83,7 @@ const tourl = async (m, bot) => {
       } else {
         const message = {
           [mediaType]: { url: mediaUrl },
-          caption: `*ᴜʀʟ:* *${mediaUrl}*\n\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙʟᴀᴄᴋ-ᴛᴀᴘᴘʏ*`,
+          caption: `*ᴜʀʟ:* *${mediaUrl}*\n\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ PEACE-MD*`,
         };
         await bot.sendMessage(m.from, message, { quoted: m });
       }
