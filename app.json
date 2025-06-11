@@ -1,11 +1,11 @@
 {
-  "name": "XEON-XMD",
-  "description": "A javascript bot developed by Black-Tappy",
+  "name": "PEACE-MD",
+  "description": "A javascript bot developed by Peacemaker",
   "keywords": [
     "whatsapp bot"
   ],
-  "logo":"https://files.catbox.moe/yd9bnm.jpg",
-  "repository": "https://github.com/Black-Tappy/XEON-XMD",
+  "logo":"https://files.catbox.moe/n0dgjr.jpg",
+  "repository": "https://github.com/Peacemaker-cyber/PEACE-MD",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
@@ -39,9 +39,9 @@
       "value": "true"
       },
     "AUTOLIKE_EMOJI": {
-      "description": "Input your custom status like emoji else leave blank to use default => 🩷",
+      "description": "Input your custom status like emoji else leave blank to use default => 💚",
       "required": false,
-      "value": "🩷"
+      "value": "💚"
       },
     "AUTO_REACT": {
       "description": "make it true if you want a bot to react on messages",
@@ -56,7 +56,7 @@
     "SUDO_NUMBER": {
       "description": "Put Sudo Numbers separated by comma Here. Sudos are limited to owner commands else leave blank",
       "required": false,
-      "value": "254759000340"
+      "value": "254752818245 "
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
