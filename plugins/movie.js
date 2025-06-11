@@ -27,7 +27,7 @@ const movie = async (m, sock) => {
 
       if (data.Response === 'True') {
         const movieInfo = `
-🌟 *~ XEON XTECH MOVIE FINDER ~* 🌟
+🌟 *~ PEACE MD MOVIE FINDER ~* 🌟
 
 🎬 *Title:* ${data.Title} (${data.Year})
 ⭐ *IMDb Rating:* ${data.imdbRating} (${data.imdbVotes} votes)
