@@ -59,15 +59,15 @@ const setProfilePicture = async (m, sock) => {
 │ ✅ *Profile Picture set successfully!*
 │ 🛡️ *Bot:* ${botNumber.split("@")[0]}
 │
-└─➤ *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙʟᴀᴄᴋ-ᴛᴀᴘᴘʏ*
+└─➤ *ᴘᴏᴡᴇʀᴇᴅ ʙʏ PEACE-MD*
         `.trim(),
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363369453603973@newsletter',
-            newsletterName: "Ⴊl𐌀Ꮳk𐌕𐌀ႲႲჄ",
+            newsletterJid: '120363421564278292@newsletter',
+            newsletterName: "PEACE-MD",
             serverMessageId: 143
           }
         }
