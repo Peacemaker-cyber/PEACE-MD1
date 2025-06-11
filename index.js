@@ -56,7 +56,7 @@ async function downloadSessionData() {
         return false;
     }
 
-    const sessdata = config.SESSION_ID.split("XEON-XTECH~")[1];
+    const sessdata = config.SESSION_ID.split("PEACE~")[1];
 
     if (!sessdata || !sessdata.includes("#")) {
         console.error('❌ Invalid SESSION_ID format! It must contain both file ID and decryption key.');
@@ -89,13 +89,13 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 XEON-XMD using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 PEACE-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["XEON-XMD", "safari", "3.3"],
+            browser: ["PEACE-MD", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
@@ -114,21 +114,21 @@ Matrix.ev.on('connection.update', (update) => {
         }
     } else if (connection === 'open') {
         if (initialConnection) {
-            console.log(chalk.green("Connected Successfully XEON XMD 🤍"));
+            console.log(chalk.green("Connected Successfully PEACE MD 🤍"));
             Matrix.sendMessage(Matrix.user.id, { 
-                image: { url: "https://files.catbox.moe/og4tsk.jpg" }, 
+                image: { url: "https://files.catbox.moe/n0dgjr.jpg" }, 
                 caption: `> 𝐆ᴇᴛ 𝐑ɪɢʜᴛ 𝐖ɪᴛᴄʜ𝐀 🩷🎀 .
 ╭───❍「 *𝐂ᴏɴɴᴇᴄᴛᴇ𝐃* 」
-┃ 🎀 𝐗ᴇᴏɴ 𝐗ᴛᴇᴄʜ 𝐁ᴏᴛ
+┃ 💚 ᴾ ᴱ ᴬ ᶜ ᴱ  ᴹ ᴰ 𝐁ᴏᴛ
 ╰───────────❍
 ╭───❍「 *𝐁ᴏᴛ 𝐑ᴇᴘᴏ* 」
-┃ [**Here**](https://github.com/Black-Tappy/XEON-XMD) star repo!
+┃ [**Here**](https://github.com/Peacemaker-cyber/PEACE-MD) star repo!
 ╰───────────❍
 ╭───❍「 *𝐉ᴏɪɴ 𝐂ʜᴀɴɴᴇ𝐋* 」
-┃ [**Here**](https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10) to join!
+┃ [**Here**](https://whatsapp.com/channel/0029VbA9YD323n3ko5xL7J1e) to join!
 ╰───────────❍
 ╭───❍「 *𝐁ᴏᴛ 𝐎ᴡɴᴇ𝐑* 」
-┃ +254759000340
+┃ +254752818245 
 ╰───────────❍
 ╭───❍「 *𝐒ʏꜱᴛᴇᴍ 𝐒ᴛᴀᴛᴜꜱ* 」
 ┃ ░░░░░░░░░░░░░░░░░░░ 100%
@@ -137,7 +137,7 @@ Matrix.ev.on('connection.update', (update) => {
 ┃ 𝐂ᴏɴꜰɪɢᴜʀ𝐄 𝐘ᴏᴜʀ 𝐏ʀᴇꜰɪ𝐗 ${prefix}
 ╰───────────❍
 ╭───❍「 *𝐀ᴜᴛᴏᴍᴀᴛɪᴏ𝐍* 」
-┃𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝐁ʟᴀᴄᴋ-𝐓ᴀᴘᴘʏ
+┃𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ Peacemaker
 ╰───────────❍`
             });
             initialConnection = false;
@@ -202,7 +202,7 @@ Matrix.ev.on('connection.update', (update) => {
   }        
           //=============readstatus=======                         
             if (config.AUTO_STATUS_REPLY) {
-                const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By XEON-XMD';
+                const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By PEACE-MD';
                 await Matrix.sendMessage(fromJid, { text: customMessage }, { quoted: mek });
             }
         }
