@@ -41,7 +41,7 @@ const update = async (m, Matrix) => {
 
             // Fetch latest commit hash
             const { data: commitData } = await axios.get(
-                "https://api.github.com/repos/Black-Tappy/XEON/commits/main"
+                "https://api.github.com/repos/Peacemaker-cyber/PEACE-MD/commits/main"
             );
             const latestCommitHash = commitData.sha;
 
@@ -63,7 +63,7 @@ const update = async (m, Matrix) => {
             
             const response = await axios({
                 method: 'get',
-                url: "https://github.com/Black-Tappy/XEON-XMD/archive/main.zip"",
+                url: "https://github.com/Peacemaker-cyber/PEACE-MD/archive/main.zip"",
                 responseType: 'stream'
             });
 
