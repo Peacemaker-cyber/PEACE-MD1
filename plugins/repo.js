@@ -7,11 +7,11 @@ const repo = async (m, sock) => {
 
   if (cmd === "repo") {
     await m.React('🖇️'); // A gem for a precious repo!
-    const repoUrl = 'https://github.com/Black-Tappy/XEON-XMD';
+    const repoUrl = 'https://github.com/Peacemaker-cyber/PEACE-MD';
     const imageUrl = 'https://files.catbox.moe/og4tsk.jpg'; // ❗ REPLACE WITH YOUR ACTUAL IMAGE URL
 
     try {
-      const apiUrl = `https://api.github.com/repos/Black-Tappy/XEON-XMD`;
+      const apiUrl = `https://api.github.com/repos/Peacemaker-cyber/PEACE-MD`;
       const response = await fetch(apiUrl);
       const data = await response.json();
 
@@ -19,22 +19,22 @@ const repo = async (m, sock) => {
         const stylishMessage = {
           image: { url: imageUrl },
           caption: `
-╭───『 XEON-XTECH REPO 』───⳹
+╭───『 PEACE-MD REPO 』───⳹
 │
 │🚀 *Explore the Innovation Hub!*
 │
 │ 📦 *Repository*: ${repoUrl}   
-│ 👑 *Owner*: Black-Tappy 
+│ 👑 *Owner*: Peacemaker
 │ ⭐ *Stars*: \`${data.stargazers_count}\` 
 │ ⑂ *Forks*: \`${data.forks_count}\`  
-│ 🔗 *URL*: https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10
+│ 🔗 *URL*: https://whatsapp.com/channel/0029VbA9YD323n3ko5xL7J1e
 │
 │ 📝 *Description*:
 │ 🤝 *Join the Community!* 
 │   Contribute & Shape the Future!  
 │
 ╰────────────────⳹
-> Powered  by Black-Tappy 🩷
+> Powered  by PEACE-MD 💚
 `.trim(),
         };
 
