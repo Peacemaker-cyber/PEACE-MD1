@@ -25,7 +25,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
       const contentType = res.headers.get('content-type');
       if (!/text|json/.test(contentType)) {
-        await Matrix.sendMedia(m.from, url, 'file', '*xᴇᴏɴ xᴛᴇᴄʜ ʙᴏᴛ  ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙʟᴀᴄᴋ-ᴛᴀᴘᴘʏ*', m);
+        await Matrix.sendMedia(m.from, url, 'file', '*PEACE MD ʙᴏᴛ  ᴘᴏᴡᴇʀᴇᴅ ʙʏ Peacemaker*', m);
         return;
       }
 
