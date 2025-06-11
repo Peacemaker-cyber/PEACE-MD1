@@ -8,7 +8,7 @@ const repo = async (m, sock) => {
   if (cmd === "repo") {
     await m.React('🖇️'); // A gem for a precious repo!
     const repoUrl = 'https://github.com/Peacemaker-cyber/PEACE-MD';
-    const imageUrl = 'https://files.catbox.moe/og4tsk.jpg'; // ❗ REPLACE WITH YOUR ACTUAL IMAGE URL
+    const imageUrl = 'https://files.catbox.moe/n0dgjr.jpg'; // ❗ REPLACE WITH YOUR ACTUAL IMAGE URL
 
     try {
       const apiUrl = `https://api.github.com/repos/Peacemaker-cyber/PEACE-MD`;
