@@ -1,21 +1,21 @@
 /*                                   
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-made by Black-Tappy
-contact owner +254759000340
+made by Peacemaker 
+contact owner +254752818245 
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Shadow-Xtech-V1 
-   * @author : Ⴊl𐌀Ꮳk𐌕𐌀ႲႲჄ
-   * @youtube : https://www.youtube.com/@Black-Tappy
-   * @infoription : Shadow-Xtech-V1 ,A Multi-functional whatsapp user bot.
+   * @project_name : PEACE MD 
+   * @author : Peacemaker
+   * @youtube : https://www.youtube.com/Peacemaker
+   * @infoription : PEACE-MD,A Multi-functional whatsapp user bot.
    * @version 10 
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Black-Tappy tech info.
-   * © 2025 Shadow-Xtech-V1 ✭ ⛥.
+   * ┌┤Created By Peacemaker-cyber tech info.
+   * © 2025 PEACE-MD✭ ⛥.
    * plugin date : 16/5/2025
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -41,8 +41,8 @@ const demonContext = {
   forwardingScore: 999,
   isForwarded: true,
   forwardedNewsletterMessageInfo: {
-    newsletterJid: '120363369453603973@newsletter',
-    newsletterName: "Ⴊl𐌀Ꮳk𐌕𐌀ႲႲჄ",
+    newsletterJid: '120363421564278292@newsletter',
+    newsletterName: "PEACE-MD",
     serverMessageId: 143
   }
 };
@@ -115,21 +115,21 @@ const AntiDelete = async (m, Matrix) => {
   if (m.body.toLowerCase() === `${prefix}antidelete on` || m.body.toLowerCase() === `${prefix}antidelete off`) {
     const responses = {
       on: {
-        text: `🛡️ *Xeon-Xtech Anti-Delete Activated!*\n\n` +
+        text: `🛡️ *PEACE-MD Anti-Delete Activated!*\n\n` +
               `• Status: ✅ Enabled\n` +
               `• Cache: 🕒 5 minutes\n` +
               `• Mode: 🌐 Global\n\n` +
               `_Deleted messages will now rise from the shadows_\n\n` +
               `━━━━━━⊱✿⊰━━━━━━\n` +
-              `ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙʟᴀᴄᴋ-ᴛᴀᴘᴘʏ`,
+              `ᴘᴏᴡᴇʀᴇᴅ ʙʏ PEACE-MD`,
         contextInfo: demonContext
       },
       off: {
-        text: `⛔ *Xeon-Xtech Anti-Delete Deactivated!*\n\n` +
+        text: `⛔ *PEACE-MD Anti-Delete Deactivated!*\n\n` +
               `• Status: ❌ Disabled\n\n` +
               `_Message recovery disabled_\n\n` +
               `━━━━━━⊱✿⊰━━━━━━\n` +
-              `ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙʟᴀᴄᴋ-ᴛᴀᴘᴘʏ`,
+              `ᴘᴏᴡᴇʀᴇᴅ ʙʏ PEACE-MD`,
         contextInfo: demonContext
       }
     };
@@ -241,7 +241,7 @@ const AntiDelete = async (m, Matrix) => {
           `⏰ *Sent At:* ${demonDelete.formatTime(cachedMsg.timestamp)}\n` +
           `🕰️ *Deleted At:* ${demonDelete.formatTime(Date.now())}\n\n` +
           `━━━━━━━━━━━━━━━\n` +
-          `ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙʟᴀᴄᴋ-ᴛᴀᴘᴘʏ`;
+          `ᴘᴏᴡᴇʀᴇᴅ ʙʏ PEACE-MD`;
 
         if (cachedMsg.media) {
           await Matrix.sendMessage(cachedMsg.chatJid, {
