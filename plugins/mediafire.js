@@ -12,7 +12,7 @@ const downloadMediaFireFile = async (m, gss) => {
 
   const url = args[0]; // The MediaFire URL provided by the user
 
-  const caption = args.slice(1).join(' ') || 'xᴇᴏɴ-xᴛᴇᴄʜ ʙᴏᴛ'; // Default caption if none provided
+  const caption = args.slice(1).join(' ') || 'PEACE-MD ʙᴏᴛ'; // Default caption if none provided
 
   // Allowed MediaFire download commands
   const validCommands = ['mediafire', 'mf'];
