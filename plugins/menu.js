@@ -24,9 +24,9 @@ const menu = async (m, sock) => {
 
     const menuText = `
 ═══════════════════════
-> 🌟  *𝗫𝗘𝗢𝗡-𝗫𝗧𝗘𝗖𝗛 𝗕𝗢𝗧* 🌟
+> 🌟  *PEACE-MD 𝗕𝗢𝗧* 🌟
 > *Version*: 8.1.0 |
-> *DEVELOPED BY BLACK-TAPPY🪆*
+> *DEVELOPED BY Peacemaker🪆*
 > *ULTRASONIC POWER AND SPEED ⚡
 ═══════════════════════
 
@@ -101,7 +101,7 @@ _✨ *𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗠𝗘𝗡𝗨* ✨_
 🔧 *Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴍᴇɴᴜ!*
 *ᴡᴀɪᴛ ғᴏʀ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs...*
 
-📢 *ᴅᴇᴠ ʙʟᴀᴄᴋ-ᴛᴀᴘᴘʏ*
+📢 *ᴅᴇᴠ PEACEMAKER*
 
 `;
 
@@ -112,8 +112,8 @@ _✨ *𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗠𝗘𝗡𝗨* ✨_
         forwardingScore: 5,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterName: "Ⴊl𐌀Ꮳk𐌕𐌀ႲႲჄ",
-          newsletterJid: "120363369453603973@newsletter",
+          newsletterName: "PEACE-MD",
+          newsletterJid: "120363421564278292@newsletter",
         },
       }
     }, { quoted: m });
