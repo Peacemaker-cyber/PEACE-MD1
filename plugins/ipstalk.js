@@ -44,7 +44,7 @@ const ipStalk = async (m, gss) => {
       responseMessage += `  ◦  *Mobile*: ${ipData.mobile ? 'Yes' : 'No'}\n`;
       responseMessage += `  ◦  *Proxy*: ${ipData.proxy ? 'Yes' : 'No'}\n`;
       responseMessage += `  ◦  *Hosting*: ${ipData.hosting ? 'Yes' : 'No'}\n\n`;
-      responseMessage += `🔖 *𝐗ᴇᴏɴ-𝐗ᴛᴇᴄʜ*\n🎯 *𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝐁ʟᴀᴄᴋ-𝐓ᴀᴘᴘʏ*\n`;
+      responseMessage += `🔖 *PEACE-MD*\n🎯 *𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ PEACEMAKER*\n`;
 
       await gss.sendMessage(m.from, { text: responseMessage }, { quoted: m });
     } else {
