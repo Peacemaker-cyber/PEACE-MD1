@@ -71,12 +71,12 @@ const OwnerCmd = async (m, Matrix) => {
     if (mediaType === "imageMessage") {
       await Matrix.sendMessage(recipient, {
         'image': mediaBuffer,
-        'caption': "> *© Powered By Xeon 💸*"
+        'caption': "> *© Powered BY PEACE MD💸*"
       });
     } else if (mediaType === "videoMessage") {
       await Matrix.sendMessage(recipient, {
         'video': mediaBuffer,
-        'caption': "> *© Powered By Xeon 💸*",
+        'caption': "> *© Powered By PEACE MD💸*",
         'mimetype': "video/mp4"
       });
     } else if (mediaType === "audioMessage") {
