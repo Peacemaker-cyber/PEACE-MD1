@@ -19,7 +19,7 @@ const allMenu = async (m, sock) => {
     const minutes = Math.floor((uptimeSeconds % 3600) / 60);
     const seconds = Math.floor(uptimeSeconds % 60);
     //realtime function
-        const realTime = moment().tz("Asia/Karachi").format("HH:mm:ss");
+        const realTime = moment().tz("Africa/Nairobi").format("HH:mm:ss");
 // pushwish function
     let pushwish = "";
     
@@ -110,7 +110,7 @@ const allMenu = async (m, sock) => {
 *│* 💙 *${prefix}𝙿𝚛𝚘𝚙𝚑𝚎𝚝𝚗𝚊𝚖𝚎*
 ╰───────────❍  
 ╭───────────❍
-│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ PEACE MD
+│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝙋𝙀𝘼𝘾𝙀 𝙈𝘿
 ╰───────────❍
 `;
 await m.React('✅'); // React with success icon
@@ -141,7 +141,7 @@ await m.React('✅'); // React with success icon
 *┋*⏬️ *${prefix}𝙰𝚙𝚔*
 ╰───────────❍   
 ╭───────────❍
-│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ PEACE MD 
+│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝙋𝙀𝘼𝘾𝙀 𝙈𝘿
 ╰───────────❍
 `;
 await m.React('✅'); // React with success icon
@@ -164,7 +164,7 @@ await m.React('✅'); // React with success icon
 *┋*🧠 *${prefix}𝙰𝚒*
 ╰───────────❍
 ╭───────────❍
-│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ PEACE MD 
+│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝙋𝙀𝘼𝘾𝙀 𝙈𝘿
 ╰───────────❍
 `;
 await m.React('✅'); // React with success icon
@@ -204,7 +204,7 @@ await m.React('✅'); // React with success icon
 *┋* ©️ *${prefix}𝙻𝚘𝙶𝚘18*
 *┋* ©️ *${prefix}𝙻𝚘𝙶𝚘19*
 ╭───────────❍
-│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ PEACE MD 
+│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝙋𝙀𝘼𝘾𝙀 𝙈𝘿
 ╰───────────❍
 `;
 
@@ -231,7 +231,7 @@ await m.React('✅'); // React with success icon
 *┋* 🫂 *${prefix}𝙳𝚒𝚜 24𝚑*
 *┋* 🫂 *${prefix}𝙸𝚗𝚟𝚒𝚝𝚎*
 ╭───────────❍
-│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ PEACE MD
+│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝙋𝙀𝘼𝘾𝙀 𝙈𝘿
 ╰───────────❍
 `;
 await m.React('✅'); // React with success icon
@@ -255,7 +255,7 @@ await m.React('✅'); // React with success icon
 *┋*📡 *${prefix}𝚂𝚙𝚘𝚝𝚒𝚏𝚢*
 ╰───────────❍
 ╭───────────❍
-│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ PEACE-MD
+│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝙋𝙀𝘼𝘾𝙀 𝙈𝘿
 ╰───────────❍
 `;
 await m.React('✅'); // React with success icon
@@ -283,7 +283,7 @@ await m.React('✅'); // React with success icon
 *┋*💫 *${prefix}𝚂𝚊𝚟𝚎*
 ╰───────────❍
 ╭───────────❍
-│😇PEACE MD😇
+│😇𝙋𝙀𝘼𝘾𝙀 𝙈𝘿😇
 ╰───────────❍
 `;
 
@@ -309,7 +309,7 @@ await m.React('✅'); // React with success icon
 *│ *🗿 *${prefix}𝚂𝚎𝚗𝚍𝚖𝚎*
 ╰───────────❍   
 ╭───────────❍
-│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ PEACE-MD
+│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝙋𝙀𝘼𝘾𝙀 𝙈𝘿
 ╰───────────❍
 `;
 await m.React('✅'); // React with success icon
@@ -328,7 +328,7 @@ await m.React('✅'); // React with success icon
 *┋*🛡  *${prefix}𝙵𝚎𝚝𝚌𝚑*
 ╰───────────❍  
 ╭───────────❍
-│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ PEACE MD 
+│𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝙋𝙀𝘼𝘾𝙀 𝙈𝘿
 ╰───────────❍
 `;
 await m.React('✅'); // React with success icon
