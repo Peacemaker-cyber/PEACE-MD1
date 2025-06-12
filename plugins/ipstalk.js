@@ -26,7 +26,7 @@ const ipStalk = async (m, gss) => {
     if (data.status) {
       const ipData = data.BK9;
 
-      let responseMessage = `🌍 *xᴇᴏɴ-xᴛᴇᴄʜ ɪᴘ sᴛᴀʟᴋᴇʀ*\n\n`;
+      let responseMessage = `🌍 *𝙋𝙀𝘼𝘾𝙀 𝙈𝘿 ɪᴘ sᴛᴀʟᴋᴇʀ*\n\n`;
       responseMessage += `  ◦  *IP*: ${ipData.ip}\n`;
       responseMessage += `  ◦  *Continent*: ${ipData.continent}\n`;
       responseMessage += `  ◦  *Country*: ${ipData.country} (${ipData.countryCode})\n`;
@@ -44,7 +44,7 @@ const ipStalk = async (m, gss) => {
       responseMessage += `  ◦  *Mobile*: ${ipData.mobile ? 'Yes' : 'No'}\n`;
       responseMessage += `  ◦  *Proxy*: ${ipData.proxy ? 'Yes' : 'No'}\n`;
       responseMessage += `  ◦  *Hosting*: ${ipData.hosting ? 'Yes' : 'No'}\n\n`;
-      responseMessage += `🔖 *PEACE-MD*\n🎯 *𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ PEACEMAKER*\n`;
+      responseMessage += `🔖 *𝙋𝙀𝘼𝘾𝙀 𝙈𝘿*\n🎯 *𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝗣𝗘𝗔𝗖𝗘𝗠𝗔𝗞𝗘𝗥*\n`;
 
       await gss.sendMessage(m.from, { text: responseMessage }, { quoted: m });
     } else {
