@@ -1,82 +1,69 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=200&lines=XEON-XMD" alt="Typing SVG" /></a>
-  </p>
-+
-
-> **`Updated` XEON XMD with Latest Features**
-
-## CONTACT XEON-XMD TECH
-  
-<a href="https://wa.me/254759000340"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
-  <a href="https://chat.whatsapp.com/GbpVWoHH0XLHOHJsYLtbjH"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
-  <a href="https://www.facebook.com/profile.php?id=100086056192263&name=xhp_nt__fb__action__open_use"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Instagram2.png" width="14%"> </a>
-  <a href="https://www.instagram.com/bright_leizer_?igsh=Y2JmcnE1ajNjZXM=&name=xhp_nt__fb__action__open_user"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="15%"> </a><a href="https://github.com/Black-Tappy/XEON-XMD/tree/main"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/devto.png" width="15%"> </a><a href="XEON "> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="13%"> </a>
+# PEACE MD
+<!-- Glowing Header -->
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
 
-
-```
-𝐗𝐄𝐎𝐍 𝐗𝐌𝐃 𝐁𝐘 Ⴊl𐌀Ꮳk𐌕𐌀ႲႲჄ 🩷 
-```
-
---- 
-
-<a><img src='https://files.catbox.moe/78hoyu.jpg'/></a>
-
----
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+PEACE+MD+BETTER+OPTION;🔥+The+Most+Powerful+WhatsApp+Bot;💻+developed+by+PRINCE+EMMANUEL;🚀+Peace-Maker+Tech+Solutions;🌈+Fast+⚡+Secure+🔒+Reliable+✅" alt="Typing Animation">
+</h1>
 
 <p align="center">
-  <a href="https://github.com/Black-Tappy "><img title="Developer" src="https://img.shields.io/badge/Author-Black%20Tappy-FF7604.svg?style=big-square&logo=github" /></a>
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
 
-<div align="center">
-  
-[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10)
-</div>
+<!-- Banner Image -->
+<p align="center">
+  <a href="https://files.catbox.moe/n0dgjr.jpg">
+    <img src="https://files.catbox.moe/n0dgjr.jpg" width="100%" height="auto">
+  </a>
+</p>
 
- <p align="center"><img src="https://profile-counter.glitch.me/{XEON-XMD}/count.svg" alt="Black-Tappy :: Visitor's Count" old_src="https://profile-counter.glitch.me/{Black-Tappy}/count.svg" /></p>
+<!-- Action Buttons -->
+<p align="center">
+  <a href="https://peacemd.onrender.com">
+    <img title="GET SESSION OPT 1" src="https://img.shields.io/badge/🔑_GET_PEACE MD_SESSION-000000?style=for-the-badge&logo=quantum&logoColor=white&color=skyblue" width="260" height="50"/>
+  </a>
+
+
+
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Peacemaker-cyber/PEACE-MD/new/main">
+    <img title="DEPLOY PEACE MD BOT" src="https://img.shields.io/badge/🚀_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
+  </a>
+</p>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=monospace-ExtraBold&color=blue&lines=𝗙𝗢𝗥𝗞+𝗔𝗡𝗗+𝗦𝗧𝗔𝗥+⭐+𝗥𝗘𝗣𝗢)](https://git.io/typing-svg)
+ <p align="center">
+ <a href="https://github.com/Peacemaker-cyber/Peacemaker-md/fork"><img title="PEACEMAKER-MD" src="https://img.shields.io/badge/FORK-PEACE MD-h?color=008000&style=for-the-badge&logo=github"></a>
+
 
 
 <p align="center">
-<a href="https://github.com/Black-Tappy/XEOM-XMD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=square&color=darkpink"></a> &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=XEON-XMD&label=VIEWS&style=square&color=blue" />
-</p>
-</p> 
-
-### 1. Fork This Repository
-
-Click the button below to fork:
-
-  <a href="https://github.com/Black-Tappy/XEON-XMD/fork"><img title="XEON-XMD" src="https://img.shields.io/badge/FORK-XEON XMD-h?color=green&style=for-the-badge&logo=stackshare"></a>
-
-## ɢᴇᴛ ᴘᴀɪʀɪɴɢ ᴄᴏᴅᴇ
-  <p align="left">  
-<a href='https://peacemd.onrender.com' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-000000?style=for-the-badge&logo=codefactor&logoColor=yellow'/></a>  
-</p>  
-
-
-## 👻 ᴅᴇᴘʟᴏʏ xᴇᴏɴ xᴍᴅ 👻
-
-> Deploy on Heroku
-
-
-
-<p align="left">  
-<a href='https://dashboard.heroku.com/new?template=https://github.com/Peacemaker-cyber/PEACE-MD1/tree/main' target="_blank"><img alt='Deploy on Heroku' src='https://img.shields.io/badge/Deploy%20on-Heroku-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/></a>  
-</p>
-
-
-
-## ᴄʀᴇᴅɪᴛs ᴀɴᴅ ᴅᴇᴠs
-> XEON-XMD Owner 
-- [Black-Tappy](https://github.com/Black-Tappy)
-- Creater and Owner Of REDMAGIC-XMD 
-> XEON-XMD Helpers 
-- [POPKID](https://github.com/Popkiddevs)
-- For helping in bot plugin files.
+  <a href="https://render.com">
+    <img title="DEPLOY ON RENDER" src="https://img.shields.io/badge/🚀_DEPLOY_ON_RENDER-000000?style=for-the-badge&logo=render&logoColor=white&color=61DAFB" width="260" height="50"/>
+  </a>
   
 
+<p align="center">
+  <a href="https://railway.app?referralCode=AqkNn4">
+    <img title="DEPLOY ON RAILWAY" src="https://img.shields.io/badge/🚀_DEPLOY_ON_RAILWAY-000000?style=for-the-badge&logo=railway&logoColor=white&color=purple" width="260" height="50"/>
+  </a>
+</p>
 
+<!-- Referral Code -->
+<p align="center">
+  <b>Referral Code for Railway:</b> <code>AqkNn4</code>
+</p>
 
-🔒 Final Note
+<!-- Glowing Footer -->
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
+</p>
 
-If you face any issues, report them on GitHub or in the WhatsApp community.
-Happy coding! 👻 
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=💎+PEACE+MD+Quality+Edition+by+PRINCE+EMMANUEL;⚡+The+Future+of+WhatsApp+Bots+is+Here" alt="Footer Animation">
+</h3>
+
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
+</p>
