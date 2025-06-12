@@ -17,7 +17,7 @@ const ttsHandler = async (m, sock) => {
 
     if (!text) {
       await sock.sendMessage(m.from, {
-        text: "✨ Oopsie~ You forgot to tell me what to say! Try something like:\n\n*!tts I love you Joel bot!*"
+        text: "✨ Oopsie~ You forgot to tell me what to say! Try something like:\n\n*!tts I love you Peace bot!*"
       }, { quoted: m });
       if (typeof m.React === 'function') await m.React('❌');
       return;
