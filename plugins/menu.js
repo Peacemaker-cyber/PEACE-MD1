@@ -11,16 +11,8 @@ const menu = async (m, sock) => {
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    let profilePictureUrl = 'https://files.catbox.moe/og4tsk.jpg'; // Default image URL
-    try {
-      const pp = await sock.profilePictureUrl(m.sender, 'image');
-      if (pp) {
-        profilePictureUrl = pp;
-      }
-    } catch (error) {
-      console.error("Failed to fetch profile picture:", error);
-      // Use the default image if fetching fails
-    }
+    // Use a fixed profile picture URL for the menu
+    const profilePictureUrl = 'https://files.catbox.moe/n0dgjr.jpg';
 
     const menuText = `
 ═══════════════════════
@@ -102,7 +94,6 @@ _✨ *𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗠𝗘𝗡𝗨* ✨_
 *ᴡᴀɪᴛ ғᴏʀ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs...*
 
 📢 *ᴅᴇᴠ PEACEMAKER*
-
 `;
 
     await sock.sendMessage(m.from, {
