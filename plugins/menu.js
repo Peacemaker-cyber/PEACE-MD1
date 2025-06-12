@@ -16,9 +16,9 @@ const menu = async (m, sock) => {
 
     const menuText = `
 ═══════════════════════
-> 🌟  *PEACE-MD 𝗕𝗢𝗧* 🌟
+> 🌟  *𝙋𝙀𝘼𝘾𝙀 𝙈𝘿 𝗕𝗢𝗧* 🌟
 > *Version*: 8.1.0 |
-> *DEVELOPED BY Peacemaker🪆*
+> *DEVELOPED BY 𝗣𝗘𝗔𝗖𝗘𝗠𝗔𝗞𝗘𝗥🪆*
 > *ULTRASONIC POWER AND SPEED ⚡
 ═══════════════════════
 
@@ -93,7 +93,7 @@ _✨ *𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗠𝗘𝗡𝗨* ✨_
 🔧 *Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴍᴇɴᴜ!*
 *ᴡᴀɪᴛ ғᴏʀ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs...*
 
-📢 *ᴅᴇᴠ PEACEMAKER*
+📢 *ᴅᴇᴠ 𝗣𝗘𝗔𝗖𝗘𝗠𝗔𝗞𝗘𝗥*
 `;
 
     await sock.sendMessage(m.from, {
