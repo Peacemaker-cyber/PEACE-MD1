@@ -7,93 +7,72 @@ const menu = async (m, sock) => {
 
   if (cmd === "menu") {
     const start = new Date().getTime();
-    await m.React('🎀');
+    await m.React('🔓');
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    // Use a fixed profile picture URL for the menu
+    // Always use the constant background image
     const profilePictureUrl = 'https://files.catbox.moe/n0dgjr.jpg';
 
     const menuText = `
-═══════════════════════
-> 🌟  *𝙋𝙀𝘼𝘾𝙀 𝙈𝘿 𝗕𝗢𝗧* 🌟
-> *Version*: 8.1.0 |
-> *DEVELOPED BY 𝗣𝗘𝗔𝗖𝗘𝗠𝗔𝗞𝗘𝗥🪆*
-> *ULTRASONIC POWER AND SPEED ⚡
-═══════════════════════
+╭───❍「 *😇𝐏ᴇᴀᴄᴇ 𝐌ᴅ😇* 」
+│ *🏷️Version*: 7.1.0 |
+│ *👑Developed By PEACE-MD*
+│ *🎲Ultrasonic Power and Speed⚡
+╰───────────❍
+> Explore the Bot command 🪄 for ultimate magic ✨ 
+╭─⊳⋅🤖 ꜱʏꜱᴛᴇᴍ ᴍᴇɴᴜ 🤖⋅⊲❍
+⌬ ${prefix}menu
+⌬ ${prefix}alive
+⌬ ${prefix}owner
+⌬ ${prefix}menu
+╰─⊲⋅═════════⋅⊳─❍
 
-_✨ *𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗠𝗘𝗡𝗨* ✨_
-> *Explore the commands below to harness the bot's full power!*
+╭─⊳⋅⛩️ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ⛩️⋅⊲❍
+⌬ ${prefix}join
+⌬ ${prefix}leave
+⌬ ${prefix}autobio
+⌬ ${prefix}block
+⌬ ${prefix}autolikestatus
+⌬ ${prefix}unblock
+⌬ ${prefix}antidelete on
+⌬ ${prefix}anticall
+⌬ ${prefix}settings
+⌬ ${prefix}setname
+╰─═══════════⋅⊳❍
 
-═══════════════════════
-   🌍  *𝗦𝗬𝗦𝗧𝗘𝗠 𝗠𝗘𝗡𝗨* 🌍
-═══════════════════════
-| ⚡ | ${prefix}menu
-| 🟢 | ${prefix}alive
-| 🛠️ | ${prefix}owner
-| 🍔 | ${prefix}list
-═══════════════════════
+╭─⊳⋅🔍 ɢᴘᴛ ᴍᴇɴᴜ 🔍⋅⊲❍
+⌬ ${prefix}ai
+⌬ ${prefix}bug
+⌬ ${prefix}report
+⌬ ${prefix}chatbot
+⌬ ${prefix}gpt
+⌬ ${prefix}popkid
+╰─⊲⋅══════════⋅⊳❍
 
-═══════════════════════
-   👑  *𝗢𝗪𝗡𝗘𝗥 𝗣𝗔𝗚𝗘* 👑
-═══════════════════════
-| 🎮 | ${prefix}join
-| 🚪 | ${prefix}leave
-| 🩷 | ${prefix}autobio
-| 🔒 | ${prefix}block
-| 🧋 | ${prefix}autolikestatus
-| 🔓 | ${prefix}unblock
-| 🤖 | ${prefix}antidelete on
-| 🚫 | ${prefix}anticall
-| 🛑 | ${prefix}settings
-| 📝 | ${prefix}setname
-═══════════════════════
+╭─⊳⋅📦 ᴄᴏɴᴠᴇʀᴛᴇʀ ᴍᴇɴᴜ 📦⋅⊲❍
+⌬ ${prefix}attp
+⌬ ${prefix}gimage
+⌬ ${prefix}play
+⌬ ${prefix}video
+╰─⊲⋅════════════⋅⊳❍
 
-═══════════════════════
-  🤖  *𝗚𝗣𝗧 𝗠𝗘𝗡𝗨* 🤖
-═══════════════════════
-| 💬 | ${prefix}ai
-| 🐞 | ${prefix}bug
-| 📝 | ${prefix}report
-| 🚪 | ${prefix}chatbot
-| 🧠 | ${prefix}gpt
-| 🎨 | ${prefix}xeon
-═══════════════════════
+╭─⊳⋅🪄 ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ 🪄⋅⊲❍
+⌬ ${prefix}google
+⌬ ${prefix}mediafire
+⌬ ${prefix}facebook
+⌬ ${prefix}instagram
+⌬ ${prefix}tiktok
+⌬ ${prefix}lyrics
+⌬ ${prefix}imdb
+╰─⊲⋅═══════⋅⊳❍
 
-═══════════════════════
-  📦  *𝗖𝗢𝗡𝗩𝗘𝗥𝗧𝗘𝗥 𝗣𝗔𝗚𝗘* 📦
-═══════════════════════
-| 🎶 | ${prefix}attp
-| 🎬 | ${prefix}gimage
-| 🎧 | ${prefix}play
-| 📹 | ${prefix}video
-═══════════════════════
-
-═══════════════════════
-   🔍  *𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨* 🔍
-═══════════════════════
-| 🔎 | ${prefix}google
-| 📽️ | ${prefix}mediafire
-| 🚪 | ${prefix}facebook
-| ❤️ | ${prefix}instagram
-| 🚪 | ${prefix}tiktok
-| 🎶 | ${prefix}lyrics
-| 🎬 | ${prefix}imdb
-═══════════════════════
-
-═══════════════════════
-   🔍  *𝗙𝗨𝗡 𝗠𝗘𝗡𝗨* 🔍
-═══════════════════════
-| 🔎 | ${prefix}getpp
-| 📽️ | ${prefix}url
-| 😂 | ${prefix}roast
-═══════════════════════
-
-
-🔧 *Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴍᴇɴᴜ!*
-*ᴡᴀɪᴛ ғᴏʀ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs...*
-
-📢 *ᴅᴇᴠ 𝗣𝗘𝗔𝗖𝗘𝗠𝗔𝗞𝗘𝗥*
+╭─⊳⋅😂 ꜰᴜɴ ᴍᴇɴᴜ 😂⋅⊲❍
+⌬ ${prefix}getpp
+⌬ ${prefix}url
+⌬ ${prefix}roast
+╰─⊲⋅══════════⋅⊳❍
+📢 *Dᴇᴠ 𝐏ᴇᴀᴄᴇ 𝐌ᴅ*
 `;
 
     await sock.sendMessage(m.from, {
@@ -103,7 +82,7 @@ _✨ *𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗠𝗘𝗡𝗨* ✨_
         forwardingScore: 5,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterName: "PEACE-MD",
+          newsletterName: "𝐏ᴇᴀᴄᴇ 𝐌ᴅ",
           newsletterJid: "120363421564278292@newsletter",
         },
       }
