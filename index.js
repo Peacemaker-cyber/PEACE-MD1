@@ -119,7 +119,7 @@ Matrix.ev.on('connection.update', (update) => {
                 image: { url: "https://files.catbox.moe/n0dgjr.jpg" }, 
                 caption: `> 𝐆ᴇᴛ 𝐑ɪɢʜᴛ 𝐖ɪᴛᴄʜ𝐀 🩷🎀 .
 ╭───❍「 *𝐂ᴏɴɴᴇᴄᴛᴇ𝐃* 」
-┃ 💚 ᴾ ᴱ ᴬ ᶜ ᴱ  ᴹ ᴰ 𝐁ᴏᴛ
+┃ 💚 𝙋𝙀𝘼𝘾𝙀 𝙈𝘿 𝐁ᴏᴛ
 ╰───────────❍
 ╭───❍「 *𝐁ᴏᴛ 𝐑ᴇᴘᴏ* 」
 ┃ [**Here**](https://github.com/Peacemaker-cyber/PEACE-MD) star repo!
@@ -137,7 +137,7 @@ Matrix.ev.on('connection.update', (update) => {
 ┃ 𝐂ᴏɴꜰɪɢᴜʀ𝐄 𝐘ᴏᴜʀ 𝐏ʀᴇꜰɪ𝐗 ${prefix}
 ╰───────────❍
 ╭───❍「 *𝐀ᴜᴛᴏᴍᴀᴛɪᴏ𝐍* 」
-┃𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ Peacemaker
+┃𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝗣𝗘𝗔𝗖𝗘𝗠𝗔𝗞𝗘𝗥
 ╰───────────❍`
             });
             initialConnection = false;
