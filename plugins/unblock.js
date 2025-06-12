@@ -21,7 +21,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
       .catch((err) => m.reply(`Failed to unblock user: ${err}`));
   } catch (error) {
     console.error('Error:', error);
-    m.reply('sᴏᴜɴᴅs ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ᴘᴇʀsᴏɴ sᴏ PEACEMAKER ᴍᴇ ᴅɪᴅɴ'ᴛ ʙʟᴏᴄᴋ ʜɪᴍ/ʜᴇʀ');
+    m.reply('sᴏᴜɴᴅs ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ᴘᴇʀsᴏɴ sᴏ 𝗣𝗘𝗔𝗖𝗘𝗠𝗔𝗞𝗘𝗥 ᴍᴇ ᴅɪᴅɴ'ᴛ ʙʟᴏᴄᴋ ʜɪᴍ/ʜᴇʀ');
   }
 };
 
