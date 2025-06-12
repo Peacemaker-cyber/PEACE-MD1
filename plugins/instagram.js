@@ -24,7 +24,7 @@ const instagram = async (m, sock) => {
       await sock.sendMessage(m.from, {
         video: { url: data.downloadUrl },
         mimetype: "video/mp4",
-        caption: "📥 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ PEACE-MD✅*",
+        caption: "📥 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙋𝙀𝘼𝘾𝙀 𝙈𝘿✅*",
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
