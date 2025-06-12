@@ -1,44 +1,52 @@
-import config from '../config.cjs';
+import config from '../../config.cjs';
 
-const ping = async (m, Matrix) => {
+const ping = async (m, sock) => {
   const prefix = config.PREFIX;
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
 
   if (cmd === "ping2") {
-    const start = new Date().getTime();
+    const start = performance.now();
+    await m.React('⏳');
 
-    const reactionEmojis = ['🔥', '⚡', '🚀', '👻', '🎲', '🔗', '🌟', '💥', '🕐', '🔹'];
-    const textEmojis = ['💎', '🏆', '⚡️', '🚀', '🎶', '🌠', '⭐', '🔱', '🛡️', '✨'];
+    await sock.sendPresenceUpdate('composing', m.from);
+    await new Promise(resolve => setTimeout(resolve, 1500));
+    await sock.sendPresenceUpdate('paused', m.from);
 
-    const reactionEmoji = reactionEmojis[Math.floor(Math.random() * reactionEmojis.length)];
-    let textEmoji = textEmojis[Math.floor(Math.random() * textEmojis.length)];
+    const end = performance.now();
+    const responseTime = Math.round(end - start);
 
-    // Ensure reaction and text emojis are different
-    while (textEmoji === reactionEmoji) {
-      textEmoji = textEmojis[Math.floor(Math.random() * textEmojis.length)];
+    const text = `
+╭─❏ *『 PEACE MD PONG STATUS! 』*
+├─🔹 *Bot Name:*ᑭEᗩᑕE ᗰᗪ
+├─🟢 *Status:* Online
+├─⏱️ *Response:* ${responseTime} ms
+├─${getFancyMessage()}
+╰─❏ *Keep vibin' with PEACE~MD!*
+    `.trim();
+
+    let profilePic;
+    try {
+      profilePic = await sock.profilePictureUrl(m.sender, 'image');
+    } catch (err) {
+      profilePic = 'https://i.ibb.co/7yzjwvJ/default.jpg'; // Fallback image if profile pic isn't available
     }
 
-    await m.React(textEmoji);
-
-    const end = new Date().getTime();
-    const responseTime = (end - start) / 1000;
-
-    const text = `*X𝙴𝙾𝙽 X𝙼𝙳 S𝙿𝙴𝙴𝙳: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
-
-    await Matrix.sendMessage(m.from, {
-      text,
-      contextInfo: {
-        mentionedJid: [m.sender],
-        forwardingScore: 999,
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363369453603973@newsletter',
-          newsletterName: "Ⴊl𐌀Ꮳk𐌕𐌀ႲႲჄ",
-          serverMessageId: 143
-        }
-      }
+    await sock.sendMessage(m.from, {
+      image: { url: profilePic },
+      caption: text
     }, { quoted: m });
   }
-};
+}
+
+function getFancyMessage() {
+  const messages = [
+    "⚡ Zooming through the wires!",
+    "💨 Too fast to catch!",
+    "🚀 Full throttle response!",
+    "✨ Lightning mode activated!",
+    "🌐 Instant like magic!",
+  ];
+  return messages[Math.floor(Math.random() * messages.length)];
+}
 
 export default ping;
